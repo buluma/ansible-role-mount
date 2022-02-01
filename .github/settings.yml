@@ -1,0 +1,8 @@
+---
+#
+# Ansible managed
+#
+repository:
+  description: Configure mounts
+  homepage: https://buluma.co.ke/
+  topics: mount, ansible, molecule, tox, playbook, hacktoberfest
