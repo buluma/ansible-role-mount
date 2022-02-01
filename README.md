@@ -4,7 +4,7 @@ Configure mounts
 
 |GitHub|GitLab|Quality|Downloads|Version|
 |------|------|-------|---------|-------|
-|[![github](https://github.com/buluma/ansible-role-mount/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-mount/actions)|[![gitlab](https://gitlab.com/buluma/ansible-role-mount/badges/main/pipeline.svg)](https://gitlab.com/buluma/ansible-role-mount)|[![quality](https://img.shields.io/ansible/quality/)](https://galaxy.ansible.com/buluma/mount)|[![downloads](https://img.shields.io/ansible/role/d/)](https://galaxy.ansible.com/buluma/mount)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-mount.svg)](https://github.com/buluma/ansible-role-mount/releases/)|
+|[![github](https://github.com/buluma/ansible-role-mount/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-mount/actions)|[![gitlab](https://gitlab.com/buluma/ansible-role-mount/badges/main/pipeline.svg)](https://gitlab.com/buluma/ansible-role-mount)|[![Ansible Quality Score](https://img.shields.io/ansible/quality/57860)](https://galaxy.ansible.com/buluma/mount)|[![Ansible Role](https://img.shields.io/ansible/role/d/57860)](https://galaxy.ansible.com/buluma/mount)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-mount.svg)](https://github.com/buluma/ansible-role-mount/releases/)|
 
 ## [Example Playbook](#example-playbook)
 
