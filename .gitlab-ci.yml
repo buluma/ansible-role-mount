@@ -1,5 +1,5 @@
 ---
-image: "buluma/github-action-molecule:4.0.5"
+image: "buluma/github-action-molecule:4.0.6"
 
 services:
   - docker:dind
@@ -36,6 +36,8 @@ molecule:
         tag: "latest"
       - image: "docker-ubuntu-systemd"
         tag: "bionic"
+      - image: "docker-ubuntu-systemd"
+        tag: "focal"
 
 testing:
   script:
@@ -65,6 +67,8 @@ testing:
         tag: "latest"
       - image: "docker-ubuntu-systemd"
         tag: "bionic"
+      - image: "docker-ubuntu-systemd"
+        tag: "focal"
 
 role_testing:
   script:
@@ -94,6 +98,8 @@ role_testing:
         tag: "latest"
       - image: "docker-ubuntu-systemd"
         tag: "bionic"
+      - image: "docker-ubuntu-systemd"
+        tag: "focal"
 
 galaxy:
   script:
@@ -125,3 +131,5 @@ role_testing_live:
         tag: "latest"
       - image: "docker-ubuntu-systemd"
         tag: "bionic"
+      - image: "docker-ubuntu-systemd"
+        tag: "focal"
