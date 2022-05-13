@@ -1,5 +1,13 @@
 # Changelog
 
+## [Unreleased](https://github.com/buluma/ansible-role-mount/tree/HEAD)
+
+[Full Changelog](https://github.com/buluma/ansible-role-mount/compare/1.0.5...HEAD)
+
+**Merged pull requests:**
+
+- Bump buluma/gh-action-auto-merge-dependabot-updates from 1.0.4 to 1.0.5 [\#4](https://github.com/buluma/ansible-role-mount/pull/4) ([dependabot[bot]](https://github.com/apps/dependabot))
+
 ## [1.0.5](https://github.com/buluma/ansible-role-mount/tree/1.0.5) (2022-03-28)
 
 [Full Changelog](https://github.com/buluma/ansible-role-mount/compare/1.0.4...1.0.5)
