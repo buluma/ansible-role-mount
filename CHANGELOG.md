@@ -1,5 +1,17 @@
 # Changelog
 
+## [Unreleased](https://github.com/buluma/ansible-role-mount/tree/HEAD)
+
+[Full Changelog](https://github.com/buluma/ansible-role-mount/compare/1.0.6...HEAD)
+
+**Implemented enhancements:**
+
+- Support CIFS [\#7](https://github.com/buluma/ansible-role-mount/issues/7)
+
+**Merged pull requests:**
+
+- Allow CIFS to mount [\#8](https://github.com/buluma/ansible-role-mount/pull/8) ([FrankGiesecke](https://github.com/FrankGiesecke))
+
 ## [1.0.6](https://github.com/buluma/ansible-role-mount/tree/1.0.6) (2022-05-13)
 
 [Full Changelog](https://github.com/buluma/ansible-role-mount/compare/1.0.5...1.0.6)
