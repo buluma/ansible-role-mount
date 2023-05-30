@@ -1,8 +1,8 @@
 # Changelog
 
-## [Unreleased](https://github.com/buluma/ansible-role-mount/tree/HEAD)
+## [1.0.7](https://github.com/buluma/ansible-role-mount/tree/1.0.7) (2023-03-12)
 
-[Full Changelog](https://github.com/buluma/ansible-role-mount/compare/1.0.6...HEAD)
+[Full Changelog](https://github.com/buluma/ansible-role-mount/compare/1.0.6...1.0.7)
 
 **Implemented enhancements:**
 
