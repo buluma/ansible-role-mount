@@ -6,7 +6,7 @@ galaxy_info:
   description: Configure mounts
   license: Apache-2.0
   company: ShadowNet
-  min_ansible_version: "2.10"
+  min_ansible_version: "2.12"
 
   platforms:
     - name: Alpine
@@ -17,14 +17,17 @@ galaxy_info:
         - all
     - name: EL
       versions:
-        - 8
+        - "8"
     - name: Fedora
       versions:
         - all
-    - name: OpenSUSE
+    - name: opensuse
       versions:
         - all
     - name: Ubuntu
+      versions:
+        - all
+    - name: Kali
       versions:
         - all
   galaxy_tags:
