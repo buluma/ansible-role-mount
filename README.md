@@ -2,9 +2,9 @@
 
 Configure mounts
 
-|GitHub|GitLab|Quality|Downloads|Version|Issues|Pull Requests|
-|------|------|-------|---------|-------|------|-------------|
-|[![github](https://github.com/buluma/ansible-role-mount/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-mount/actions)|[![gitlab](https://gitlab.com/shadowwalker/ansible-role-mount/badges/master/pipeline.svg)](https://gitlab.com/shadowwalker/ansible-role-mount)|[![quality](https://img.shields.io/ansible/quality/57860)](https://galaxy.ansible.com/buluma/mount)|[![downloads](https://img.shields.io/ansible/role/d/57860)](https://galaxy.ansible.com/buluma/mount)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-mount.svg)](https://github.com/buluma/ansible-role-mount/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-mount.svg)](https://github.com/buluma/ansible-role-mount/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-mount.svg)](https://github.com/buluma/ansible-role-mount/pulls/)|
+|GitHub|GitLab|Downloads|Version|Issues|Pull Requests|
+|------|------|-------|-------|------|-------------|
+|[![github](https://github.com/buluma/ansible-role-mount/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-mount/actions)|[![gitlab](https://gitlab.com/shadowwalker/ansible-role-mount/badges/master/pipeline.svg)](https://gitlab.com/shadowwalker/ansible-role-mount)|[![downloads](https://img.shields.io/ansible/role/d/4771)](https://galaxy.ansible.com/buluma/mount)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-mount.svg)](https://github.com/buluma/ansible-role-mount/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-mount.svg)](https://github.com/buluma/ansible-role-mount/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-mount.svg)](https://github.com/buluma/ansible-role-mount/pulls/)|
 
 ## [Example Playbook](#example-playbook)
 
