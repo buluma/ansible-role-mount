@@ -2,7 +2,15 @@
 
 ## [Unreleased](https://github.com/buluma/ansible-role-mount/tree/HEAD)
 
-[Full Changelog](https://github.com/buluma/ansible-role-mount/compare/1.0.7...HEAD)
+[Full Changelog](https://github.com/buluma/ansible-role-mount/compare/1.0.8...HEAD)
+
+**Closed issues:**
+
+- Update buluma/todo-to-issue-action@v1.0.1 @buluma [\#16](https://github.com/buluma/ansible-role-mount/issues/16)
+
+## [1.0.8](https://github.com/buluma/ansible-role-mount/tree/1.0.8) (2023-12-25)
+
+[Full Changelog](https://github.com/buluma/ansible-role-mount/compare/1.0.7...1.0.8)
 
 **Closed issues:**
 
