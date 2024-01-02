@@ -16,13 +16,17 @@ on:
     tags_ignore:
       - '*'
 
+concurrency:
+  group: ${{ github.ref }}-${{ github.workflow }}
+  cancel-in-progress: true
+
 jobs:
   build:
     runs-on: "ubuntu-20.04"
     steps:
       - uses: "actions/checkout@v4"
       - name: "TODO to Issue"
-        uses: "buluma/todo-to-issue-action@v2.0.1"
+        uses: "buluma/todo-to-issue-action@v2.0.2"
         id: "todo"
         with:
           TOKEN: ${{ secrets.GITHUB_TOKEN }}
