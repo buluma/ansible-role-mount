@@ -24,6 +24,10 @@
 
 - Support CIFS [\#7](https://github.com/buluma/ansible-role-mount/issues/7)
 
+**Merged pull requests:**
+
+- Allow CIFS to mount [\#20](https://github.com/buluma/ansible-role-mount/pull/20) ([FrankGiesecke](https://github.com/FrankGiesecke))
+
 ## [1.2.0](https://github.com/buluma/ansible-role-mount/tree/1.2.0) (2024-01-11)
 
 [Full Changelog](https://github.com/buluma/ansible-role-mount/compare/1.1.0...1.2.0)
@@ -55,7 +59,6 @@
 
 **Merged pull requests:**
 
-- Allow CIFS to mount [\#20](https://github.com/buluma/ansible-role-mount/pull/20) ([FrankGiesecke](https://github.com/FrankGiesecke))
 - Allow CIFS to mount [\#8](https://github.com/buluma/ansible-role-mount/pull/8) ([FrankGiesecke](https://github.com/FrankGiesecke))
 
 ## [1.0.6](https://github.com/buluma/ansible-role-mount/tree/1.0.6) (2022-05-13)
