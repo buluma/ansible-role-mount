@@ -5,7 +5,7 @@
   gather_facts: true
 
   roles:
-    - role: ansible-role-mount
+    - role: buluma.mount
       mount_requests:
         - path: /mnt/tmp
           src: /tmp
