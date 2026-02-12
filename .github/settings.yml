@@ -5,4 +5,4 @@
 repository:
   description: Configure mounts
   homepage: https://buluma.github.io/
-  topics: mount, ansible, molecule, tox, playbook
+  topics: mount, ansible, molecule, playbook
