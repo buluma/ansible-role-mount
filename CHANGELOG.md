@@ -4,6 +4,11 @@
 
 [Full Changelog](https://github.com/buluma/ansible-role-mount/compare/24.3.31...HEAD)
 
+**Closed issues:**
+
+- Update action [\#15](https://github.com/buluma/ansible-role-mount/issues/15)
+- rebuild action [\#14](https://github.com/buluma/ansible-role-mount/issues/14)
+
 **Merged pull requests:**
 
 - Bump ansible/ansible-lint from 24.9.2 to 24.10.0 [\#29](https://github.com/buluma/ansible-role-mount/pull/29) ([dependabot[bot]](https://github.com/apps/dependabot))
