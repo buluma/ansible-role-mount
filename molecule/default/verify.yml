@@ -1,39 +1,39 @@
 ---
-- name: Verify
-  hosts: all
-  become: true
-  gather_facts: false
+  - name: Verify
+    hosts: all
+    become: true
+    gather_facts: false
 
-  tasks:
-    - name: Check directory
-      ansible.builtin.stat:
-        path: /mnt/tmp
-      register: mount_check_directory
-      failed_when:
-        - not mount_check_directory.stat.exists
+    tasks:
+      - name: Check directory
+        ansible.builtin.stat:
+          path: /mnt/tmp
+        register: mount_check_directory
+        failed_when:
+          - not mount_check_directory.stat.exists
 
-    - name: Place some file
-      ansible.builtin.file:
-        path: /mnt/tmp/some_file.txt
-        state: touch
-        mode: "0644"
+      - name: Place some file
+        ansible.builtin.file:
+          path: /mnt/tmp/some_file.txt
+          state: touch
+          mode: "0644"
 
-    - name: Unmount
-      ansible.posix.mount:
-        path: /mnt/tmp
-        state: unmounted
+      - name: Unmount
+        ansible.posix.mount:
+          path: /mnt/tmp
+          state: unmounted
 
-    - name: Check if some file is gone
-      ansible.builtin.stat:
-        path: /mnt/tmp/some_file.txt
-      register: mount_check_some_file
-      failed_when:
-        - mount_check_some_file.stat.exists
+      - name: Check if some file is gone
+        ansible.builtin.stat:
+          path: /mnt/tmp/some_file.txt
+        register: mount_check_some_file
+        failed_when:
+          - mount_check_some_file.stat.exists
 
-    - name: Revert to mounted state before verify
-      ansible.posix.mount:
-        path: /mnt/tmp
-        src: /tmp
-        opts: bind
-        fstype: none
-        state: mounted
+      - name: Revert to mounted state before verify
+        ansible.posix.mount:
+          path: /mnt/tmp
+          src: /tmp
+          opts: bind
+          fstype: none
+          state: mounted
