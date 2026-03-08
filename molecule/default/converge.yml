@@ -5,10 +5,10 @@
   gather_facts: true
 
   roles:
-  - role: buluma.mount
-    mount_requests:
-    - path: /mnt/tmp
-      src: /tmp
-      opts: bind
-      fstype: none
-      mode: "1777"
+    - role: buluma.mount
+      mount_requests:
+        - path: /mnt/tmp
+          src: /tmp
+          opts: bind
+          fstype: none
+          mode: "1777"
