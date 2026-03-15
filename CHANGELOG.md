@@ -11,6 +11,7 @@
 
 **Merged pull requests:**
 
+- Bump docker/setup-buildx-action from 3 to 4 [\#31](https://github.com/buluma/ansible-role-mount/pull/31) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump ansible/ansible-lint from 24.9.2 to 24.10.0 [\#29](https://github.com/buluma/ansible-role-mount/pull/29) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump ansible/ansible-lint from 24.9.0 to 24.9.2 [\#28](https://github.com/buluma/ansible-role-mount/pull/28) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump ansible/ansible-lint from 24.7.0 to 24.9.0 [\#27](https://github.com/buluma/ansible-role-mount/pull/27) ([dependabot[bot]](https://github.com/apps/dependabot))
@@ -52,7 +53,6 @@
 **Merged pull requests:**
 
 - Bump actions/checkout from 3 to 4 [\#17](https://github.com/buluma/ansible-role-mount/pull/17) ([dependabot[bot]](https://github.com/apps/dependabot))
-- Allow CIFS to mount [\#8](https://github.com/buluma/ansible-role-mount/pull/8) ([FrankGiesecke](https://github.com/FrankGiesecke))
 
 ## [1.1.0](https://github.com/buluma/ansible-role-mount/tree/1.1.0) (2024-01-02)
 
@@ -74,6 +74,10 @@
 ## [1.0.7](https://github.com/buluma/ansible-role-mount/tree/1.0.7) (2023-03-12)
 
 [Full Changelog](https://github.com/buluma/ansible-role-mount/compare/1.0.6...1.0.7)
+
+**Merged pull requests:**
+
+- Allow CIFS to mount [\#8](https://github.com/buluma/ansible-role-mount/pull/8) ([FrankGiesecke](https://github.com/FrankGiesecke))
 
 ## [1.0.6](https://github.com/buluma/ansible-role-mount/tree/1.0.6) (2022-05-13)
 
